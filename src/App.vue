@@ -35,7 +35,7 @@
                 </div>
                 <div class="hidden md:block">
                     <video class="h-84 w-[600px] ml-44" autoplay loop muted>
-                        <source src="./assets/video.mp4" type="video/mp4">
+                        <source src="../public/assets/video.mp4" type="video/mp4">
                         Seu navegador não suporta a tag de vídeo.
                     </video>
                 </div>

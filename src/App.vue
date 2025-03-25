@@ -3,8 +3,8 @@
     <transition name="slide-rigth">
         <div v-if="isLoading == true" class="overflow-hidden">
           
-            <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
-                <source src="../assets/video.mp4" type="video/mp4">
+            <video autoplay loop muted playsinline class=" w-full h-full object-cover">
+                <source src="../public/assets/video.mp4" type="video/mp4">
                 Seu navegador não suporta vídeos.
             </video>
                 
@@ -34,7 +34,6 @@
                     </p>
                 </div>
             </div>  
-                
         </div>
     </transition>
 </div>

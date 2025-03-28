@@ -11,11 +11,3 @@ window.addEventListener('DOMContentLoaded', (event) => {
         }, 300); // Delay de 300ms antes da animação começar
     });
 });
-
-
-
-window.addEventListener("load", () => {
-    setTimeout(() => {
-        document.getElementById("about").classList.remove("opacity-0", "-translate-x-32" );
-    },200)
-});

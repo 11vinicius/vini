@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./index.js"></script>
     <title>Vini</title>
   </head>
   <body class="bg-black">
 
-    <div class="px-14 py-4 md:flex justify-between">
+    <div class="px-14 py-4 md:flex border-b border-white/3 shadow-sm shadow-purple-500 p-6 text-white justify-between">
       <div class="flex gap-2 items-end">
         <img class="w-12" src="./assets/logo.png" alt="logo">
         <h1 class="text-white text-3xl font-semibold">VINI</h1>
@@ -26,57 +27,118 @@
       </div>
     </div>
 
-    <div class="w-full gap-20 md:flex px-4  my-14 justify-center items-center">
+    <div  class="esquerda transform translate-x-full opacity-0 transition-all duration-[2500ms] ease-out w-full gap-14 md:flex px-14 my-14 justify-center">
       <img class="md:w-72 rounded-full" src="./assets/vini.png" alt="image">
-      <div class="md:w-9/12 md:text-left text-center">
-          <div class="text-white text-3xl font-semibold mb-4">
-              Do Conceito à Implementação Desenvolvimento Full-Stack
-          </div>
-          <div class="text-white">
+      <div  class="md:w-9/12 mt-12 md:mt-0 md:text-left text-center text-white">
+          <p>
+            Sou um <span class="font-extrabold">desenvolvedor full stack</span>  com mais de 5 anos de experiência em desenvolvimento web, trabalhando com 
+            <span class="font-extrabold">TypeScript,PHP, React, React Native, Docker</span>  e <span class="font-extrabold">PostgreSQL</span>. 
+            Minha especialidade inclui a construção de aplicações escaláveis e performáticas, 
+            com integrações com <span class="font-extrabold"> APIs REST</span> e <span class="font-extrabold">SOAP</span>, sempre focando em boas práticas e otimização de código.
+          </p>
+          <p>
+            Tenho experiência no desenvolvimento e manutenção de sistemas hospedados em <span class="font-extrabold">AWS Cloud</span> , utilizando serviços como <span class="font-extrabold">EC2, S3, RDS</span>  e Lambda para garantir alta disponibilidade e eficiência.
+          </p>
+          <div class="my-4">
             <p>
-              Sou um programador full stack com mais de 5 anos de experiência, especializado em criar soluções digitais eficientes e escaláveis.
-              Com domínio em Laravel, React, React Native e Node.js, desenvolvo aplicações robustas e responsivas para web e mobile.
+              ✔️ Desenvolvimento front-end e back-end com span, <span class="font-extrabold">React, React Native, Laravel</span> e <span class="font-extrabold">Node.js</span>
             </p>
             <p>
-              Além disso, tenho expertise em AWS EC2, garantindo alta performance e confiabilidade para seus projetos na nuvem.
+              ✔️ Arquitetura de microsserviços e containers com <span class="font-extrabold">Docker</span>  e <span class="font-extrabold">Docker Compose</span> 
             </p>
             <p>
-              Se você busca um profissional comprometido, ágil e pronto para transformar desafios em soluções inovadoras, entre em contato!            
+              ✔️ Bancos de dados relacionais e NoSQL, principalmente <span class="font-extrabold">PostgreSQL</span>
+            </p>
+            <p>
+              ✔️ Integrações de <span class="font-extrabold">APIs RESTful</span> e <span class="font-extrabold">SOAP</span> para comunicação entre sistemas
+            </p>
+            <p>
+              ✔️ Implantação, automação e escalabilidade na nuvem <span class="font-extrabold">AWS</span>
             </p>
           </div>
       </div>
     </div>
+    
+    <div class="esquerda md:flex md:m-14 text-center md:text-left m-6 text-white items-center border bg-gray-900 border-white/3 shadow-lg rounded-md p-10 gap-10 shadow-purple-500 transform translate-x-full opacity-0 transition-all duration-[2500ms] ease-out">
+        <img class="md:w-62 h-62 rounded-full" src="./assets/ilustration/mobile.gif" alt="nodejs">
+        <div>
+            <h2 class="text-xl font-semibold my-2">Desenvolvimento Mobile</h2>
+            <p class="text-white">
+                Com mais de 5 anos de experiência no desenvolvimento de aplicações mobile, sou especializado na criação
+                de soluções robustas e escaláveis tanto para plataformas <span class="font-extrabold">Android</span> quanto <span class="font-extrabold">iOS</span>.
+                Utilizo as tecnologias mais modernas e eficientes para garantir uma experiência de usuário fluida e intuitiva.
+            </p>
+            <div class="mt-4">
+                <p>
+                    ✔️  Desenvolvimento de apps nativos utilizando JavaScript e React, permitindo um desenvolvimento rápido e de alta qualidade.
+                </p>
+                <p>
+                    ✔️  Utilização do Expo para acelerar o desenvolvimento e testar apps diretamente no dispositivo, proporcionando uma integração simplificada com APIs nativas.
+                </p>
+            </div>
+        </div>
+    </div>
 
-    <div class="grid md:grid-cols-4 gap-2 px-4 md:px-14 mb-24 overflow-hidden" >
-      <div class="p-4 shadow-white text-center border border-white backdrop-blur-md rounded-lg shadow-lg">
-          <img class="m-auto w-24" src="./assets/typescript.svg" alt="nodejs">
-          <h2 class="text-xl font-semibold text-white my-2">Desenvolvimento Mobile</h2>
-          <p class="text-white">
-              Transforme suas ideias em aplicativos inovadores e de alto desempenho! Oferecemos soluções mobile sob medida para iOS e Android, com foco em usabilidade, design moderno e funcionalidades que impulsionam seus negócios. Leve sua marca ao próximo nível com tecnologia de ponta!
-          </p>
-      </div>
-      <div class="p-4 shadow-white text-center border border-white backdrop-blur-md rounded-lg shadow-lg">
-          <img class="m-auto w-24" src="./assets/laravel.svg" alt="nodejs">
-          <h2 class="text-xl font-semibold text-white my-2">Desenvolvimento Web</h2>
-          <p class="text-white">
-              Transforme sua ideia em uma realidade digital com soluções personalizadas. Oferecemos desenvolvimento web completo, do design ao código, criando sites rápidos, responsivos e focados na experiência do usuário. Leve sua marca ao próximo nível com tecnologia de ponta e inovação.
-          </p>
-      </div>
-      <div class="p-4 shadow-white text-center border border-white backdrop-blur-md rounded-lg shadow-lg">
-          <img class="m-auto w-24" src="./assets/nodejs.svg" alt="nodejs">
-          <h2 class="text-xl font-semibold text-white my-2">Rest API</h2>
-          <p class="text-white">
-              Conecte sistemas de forma eficiente e segura com APIs RESTful personalizadas. Soluções escaláveis que facilitam a integração de serviços, otimizam o fluxo de dados e garantem alto desempenho. Aumente a interoperabilidade da sua aplicação com APIs rápidas, confiáveis e fáceis de usar.
-          </p>
-      </div>
-      <div class="p-4 shadow-white text-center border border-white backdrop-blur-md rounded-lg shadow-lg">
-          <img class="m-auto w-24" src="./assets/uml.svg" alt="nodejs">
-          <h2 class="text-xl font-semibold text-white my-2">Metodologias agéis</h2>
-          <p class="text-white">
-              Com metodologias ágeis, entrego resultados contínuos, adaptáveis e eficientes. Acelere seus projetos, melhore a comunicação e atenda às necessidades do mercado de forma ágil e assertiva. Quero levar sua empresa a um novo patamar de inovação e produtividade!
-          </p>
-      </div>
-    </div>  
+    <div class="esquerda md:flex md:m-14 text-center md:text-left m-6 text-white items-center border bg-gray-900 border-white/3 shadow-lg rounded-md p-10 gap-10 shadow-purple-500 transform translate-x-full opacity-0 transition-all duration-[2500ms] ease-out">
+        <img class="md:w-62 h-62 rounded-full" src="./assets/ilustration/web.gif" alt="nodejs">
+        <div>
+            <h2 class="text-xl font-semibold my-2">Desenvolvimento Web</h2>
+            <p class="text-white">
+              Com vasta experiência no desenvolvimento web, sou especializado em criar soluções robustas
+              e escaláveis que atendem às necessidades do usuário e 
+              ao mesmo tempo proporcionam uma experiência fluida e intuitiva. Trabalho com as mais modernas tecnologias e
+              <span class="font-extrabold">frameworks</span> , incluindo 
+              <span class="font-extrabold">React, Reactjs, Laravel</span>, e 
+              <span class="font-extrabold">Node.js</span>, além de integrar poderosas ferramentas como 
+              <span class="font-extrabold">TailwindCSS, PostgreSQL,</span> e 
+              <span class="font-extrabold">Docker</span>.   
+             </p>
+             <p>
+              Além disso, busco sempre otimizar o processo de desenvolvimento, adotando boas práticas como testes automatizados,
+               integração contínua e o uso de 
+               <span class="font-extrabold">APIs RESTful</span> 
+               para garantir que os sistemas sejam eficientes e fáceis de manter.
+             </p>
+            <p>
+        </div>
+    </div>
 
+    <div class="esquerda md:flex md:m-14 text-center md:text-left m-6 text-white items-center border bg-gray-900 border-white/3 shadow-lg rounded-md p-10 gap-10 shadow-purple-500 transform translate-x-full opacity-0 transition-all duration-[2500ms] ease-out">
+      <img class="md:w-62 h-62 rounded-full" src="./assets/ilustration/Setup.gif" alt="nodejs">
+      <div>
+          <h2 class="text-xl font-semibold my-2">Micro Serviços</h2>
+          <p class="text-white">
+               
+            Com ampla experiência na arquitetura e implementação de 
+            <span class="font-extrabold">microserviços</span>,
+             sou especializado em criar soluções escaláveis, flexíveis e de fácil 
+             manutenção para sistemas distribuídos. Ao adotar uma abordagem baseada 
+             em microserviços, consigo decompor aplicações complexas em serviços independentes, 
+            permitindo maior agilidade, escalabilidade e resiliência no desenvolvimento de sistemas de grande porte.
+           </p>
+           <p>
+          
+            Utilizo tecnologias como 
+            <span class="font-extrabold">Docker</span>,
+              <span class="font-extrabold">Docker Compose</span>,
+             para criar e gerenciar microserviços de forma eficiente, com comunicação entre serviços por meio de APIs RESTful e event-driven architectures. A separação de responsabilidades e a independência de cada serviço garantem que as equipes possam
+             trabalhar de maneira mais ágil e independente, acelerando o processo de desenvolvimento e a entrega de funcionalidades.
+           </p>
+          <p>
+      </div>
+  </div>
+
+    <div class="esquerda md:flex md:m-14 text-center md:text-left m-6 text-white items-center border bg-gray-900 border-white/3 shadow-lg rounded-md p-10 gap-10 shadow-purple-500 transform translate-x-full opacity-0 transition-all duration-[2500ms] ease-out">
+        <img class="md:w-62 h-62 rounded-full" src="./assets/ilustration/scrum.gif" alt="nodejs">
+        <div>
+            <h2 class="text-xl font-semibold my-2">Metodologia Agil</h2>
+            <p class="text-white">
+              Com uma sólida experiência em desenvolvimento de software, aplico as melhores práticas de Metodologia Ágil para garantir entregas rápidas, eficientes e de alta qualidade. Utilizando frameworks como Scrum e Kanban, busco promover um ambiente colaborativo, onde a comunicação constante com o cliente e a adaptação contínua aos requisitos são essenciais para o sucesso do projeto
+            </p>
+            <p>
+              Acredito que a chave para um desenvolvimento ágil é a flexibilidade e a iteração rápida. Com ciclos curtos de desenvolvimento e revisões periódicas, conseguimos entregar incrementos de valor constantes, ajustando o produto de acordo com as necessidades reais do usuário e as mudanças do mercado. Além disso, a metodologia ágil facilita a priorização de tarefas, aumentando a produtividade da equipe e a satisfação do cliente.
+            </p>
+        </div>
+    </div>
   </body>
 </html>

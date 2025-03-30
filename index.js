@@ -10,4 +10,20 @@ window.addEventListener('DOMContentLoaded', (event) => {
             mobileDevSection.classList.add('translate-x-0', 'opacity-100');
         }, 300); // Delay de 300ms antes da animação começar
     });
+
+    const menu = document.getElementById('menu')
+
+    document.getElementById('menuIsOpen').addEventListener('click', () => {
+        menu.classList.remove('hidden');
+        document.querySelector('body').classList.add('overflow-hidden');
+
+    });
+
+
+    document.getElementById('menuIsClose').addEventListener('click', () => {
+        menu.classList.add('hidden');
+        document.querySelector('body').classList.remove('overflow-hidden');
+
+    });
 });
+
